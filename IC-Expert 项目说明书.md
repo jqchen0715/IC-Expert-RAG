@@ -22,10 +22,14 @@ cd IC-Expert-RAG
 # Mac/Linux
 source .venv/bin/activate
 安装依赖：pip install -r requirements.txt
+
 3. 配置 API Key在项目根目录创建 .env 文件，填入你的 API Key：OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxx
 OPENAI_API_BASE=[https://api.deepseek.com](https://api.deepseek.com)  # 或其他兼容 OpenAI 的接口
-4. 启动服务后端服务：python server.py
+
+5. 启动服务后端服务：python server.py
+   
 前端界面：（打开新终端）streamlit run app.py
+
 访问浏览器 http://localhost:8501 即可使用。📂 项目结构IC-Expert-RAG/
 ├── app.py              # Streamlit 前端入口
 ├── server.py           # FastAPI 后端服务
