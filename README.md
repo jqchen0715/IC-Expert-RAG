@@ -18,9 +18,9 @@
 cd IC-Expert-RAG
 2. 环境配置建议使用 Conda 或 venv 创建虚拟环境：python -m venv .venv
 # Windows
-.venv\Scripts\activate
+。venv\Scripts\activate
 # Mac/Linux
-source .venv/bin/activate
+source 。venv/bin/activate
 安装依赖：pip install -r requirements.txt
 
 3. 配置 API Key在项目根目录创建 .env 文件，填入你的 API Key：OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxx
